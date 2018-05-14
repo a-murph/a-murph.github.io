@@ -1,0 +1,182 @@
+/* body and container */
+body {
+	background-image: url(../images/funky-lines.png);
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	color: #777;
+	min-height: calc(100vh - 100px);
+}
+
+/* navbar */
+#topbar {
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+	height: 80px;
+	text-align: center;
+	vertical-align: middle;
+}
+#topbar-content {
+	margin: 0 auto;
+	width: 960px;
+}
+#topbar-name {
+	margin: 0 auto;
+	color: #fff;
+	background: #4aaaa5;
+	height: 100%;
+	width: 25%;
+	float: left;
+	line-height: 80px;
+	font-weight: bold;
+	font-size: 24px;
+}
+#topbar-links {
+	float: right;
+	line-height: 80px;
+	color: #bbb;
+}
+#topbar-links a {
+	text-decoration: none;
+	color: #777;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#topbar-links a:hover {
+	color: #4aaaa5;
+	text-decoration: underline;
+}
+#topbar-links a.disabled {
+	pointer-events: none;
+	cursor: default;
+	font-weight: bold;
+	color: #444;
+}
+#topbar-name, header {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* main content of every page */
+section {
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 40px;
+}
+header {
+	color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+/* about page */
+#bio-image {
+	float: left;
+	width: 25%;
+	margin-right:15px; 
+	margin-top: 25px;
+}
+p {
+	margin-top: 25px;
+	line-height: 1.4em;
+}
+.separator {
+	text-align: center;
+}
+
+/* contact page */
+.formrow, .submitrow {
+	margin-top: 15px;
+}
+#contact-github {
+	margin-top: 25px;
+}
+#contact-github a {
+	color: #777;
+}
+input {
+	width: 445px;
+}
+.submitrow {
+	width: 100px;
+	height: 40px;
+	background: #4aaaa5;
+	text-align: center;
+	line-height: 40px;
+}
+.submitrow a:hover {
+	font-weight: bold;
+}
+.submit-button {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* portfolio page */
+.project-picture {
+	width: 380px;
+	height: 230px;
+	float: left;
+	padding: 30px;
+}
+#portfolio {
+	position: relative;
+}
+#portfolio::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.project-label {
+	width: 380px;
+	height: 40px;
+	clear: both;
+	margin-right: 0;
+	position: absolute;
+	background: #4aaaa5;
+	text-align: center;
+	line-height: 40px;
+}
+#portfolio a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+#portfolio a:hover {
+	color: #444;
+}
+#media-label {
+	top: 298px;
+	left: 50px;
+}
+#clicker-label {
+	top: 298px;
+	right: 50px;
+}
+#pets-label {
+	top: 588px;
+	left: 50px;
+}
+#blog-label {
+	top: 588px;
+	right: 50px;
+}
+#social-label {
+	top: 868px;
+	left: 50px;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	border-top: 10px solid #4aaaa5;
+	background: #777;
+	color: #fff;
+}
