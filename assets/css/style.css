@@ -180,3 +180,165 @@ footer {
 	background: #777;
 	color: #fff;
 }
+
+/* media queries */
+@media screen and (max-width: 980px) {
+	.container {
+		width: 750px;
+	}
+	#topbar-content {
+		width: 750px;
+	}
+	#topbar-name {
+		font-size: 20px;
+	}
+
+	/* portfolio */
+	.project-picture {
+		width: 310px;
+		height: 220px;
+		float: left;
+		padding: 20px;
+	}
+	.project-label {
+		width: 310px;
+		height: 30px;
+		line-height: 30px;
+	}
+	#media-label {
+		top: 280px;
+		left: 40px;
+	}
+	#clicker-label {
+		top: 280px;
+		right: 40px;
+	}
+	#pets-label {
+		top: 545px;
+		left: 40px;
+	}
+	#blog-label {
+		top: 545px;
+		right: 40px;
+	}
+	#social-label {
+		top: 800px;
+		left: 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	.container {
+		width: 620px;
+	}
+	#topbar-content {
+		width: 620px;
+	}
+	#topbar-name {
+		font-size: 16px;
+	}
+
+	/* portfolio */
+	.project-picture {
+		width: 265px;
+		height: 200px;
+		float: left;
+		padding: 10px;
+	}
+	.project-label {
+		width: 265px;
+		height: 25px;
+		line-height: 25px;
+	}
+	#media-label {
+		top: 260px;
+		left: 30px;
+	}
+	#clicker-label {
+		top: 260px;
+		right: 30px;
+	}
+	#pets-label {
+		top: 482px;
+		left: 30px;
+	}
+	#blog-label {
+		top: 482px;
+		right: 30px;
+	}
+	#social-label {
+		top: 700px;
+		left: 30px;
+	}
+}
+@media screen and (max-width: 640px) {
+	body {
+		font-size: 12px;
+	}
+	.container {
+		width: 500px;
+	}
+	#topbar {
+		height: 100px;
+	}
+	#topbar-content {
+		width: 500px;
+	}
+	#topbar-name {
+		font-size: 14px;
+		float: none;
+		height: 60px;
+		width: 100%;
+		line-height: 60px;
+		font-size: 20px;
+	}
+	#topbar-links {
+		float: none;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	/* bio */
+	#bio-image {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 25px;
+	}
+	p {
+		line-height: 2em;
+		font-size: 14px;
+	}
+	.separator {
+		font-size: 10px;
+	}
+
+	/* portfolio */
+	.project-picture {
+		width: 435px;
+		height: 300px;
+		float: left;
+	}
+	.project-label {
+		width: 435px;
+		height: 40px;
+		line-height: 40px;
+	}
+	#media-label {
+		top: 320px;
+	}
+	#clicker-label {
+		top: 640px;
+	}
+	#pets-label {
+		top: 960px;
+	}
+	#blog-label {
+		top: 1280px;
+	}
+	#social-label {
+		top: 1600px;
+	}
+}
