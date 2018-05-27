@@ -151,12 +151,12 @@ input {
 	color: #444;
 }
 #hangman-label {
-	top: 280px;
-	left: 40px;
+	top: 290px;
+	left: 50px;
 }
-#clicker-label {
-	top: 298px;
-	right: 50px;
+#persona-label {
+	top: 290px;
+	right: 88px;
 }
 #pets-label {
 	top: 588px;
@@ -205,13 +205,13 @@ footer {
 		height: 30px;
 		line-height: 30px;
 	}
-	#media-label {
+	#hangman-label {
 		top: 280px;
 		left: 40px;
 	}
-	#clicker-label {
+	#persona-label {
 		top: 280px;
-		right: 40px;
+		right: 48px;
 	}
 	#pets-label {
 		top: 545px;
@@ -252,13 +252,13 @@ footer {
 		height: 25px;
 		line-height: 25px;
 	}
-	#media-label {
+	#hangman-label {
 		top: 260px;
 		left: 30px;
 	}
-	#clicker-label {
+	#persona-label {
 		top: 260px;
-		right: 30px;
+		right: 38px;
 	}
 	#pets-label {
 		top: 482px;
@@ -326,11 +326,12 @@ footer {
 		height: 40px;
 		line-height: 40px;
 	}
-	#media-label {
+	#hangman-label {
 		top: 320px;
 	}
-	#clicker-label {
+	#persona-label {
 		top: 640px;
+		right: 33px;
 	}
 	#pets-label {
 		top: 960px;
