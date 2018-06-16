@@ -162,9 +162,9 @@ input {
 	top: 588px;
 	left: 50px;
 }
-#blog-label {
+#giphy-label {
 	top: 588px;
-	right: 50px;
+	right: 88px;
 }
 #social-label {
 	top: 868px;
@@ -217,9 +217,9 @@ footer {
 		top: 545px;
 		left: 40px;
 	}
-	#blog-label {
+	#giphy-label {
 		top: 545px;
-		right: 40px;
+		right: 48px;
 	}
 	#social-label {
 		top: 800px;
@@ -264,7 +264,7 @@ footer {
 		top: 482px;
 		left: 30px;
 	}
-	#blog-label {
+	#giphy-label {
 		top: 482px;
 		right: 38px;
 	}
@@ -336,8 +336,9 @@ footer {
 	#pokemon-label {
 		top: 960px;
 	}
-	#blog-label {
+	#giphy-label {
 		top: 1280px;
+		right: 33px;
 	}
 	#social-label {
 		top: 1600px;
