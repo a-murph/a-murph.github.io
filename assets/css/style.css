@@ -166,7 +166,7 @@ input {
 	top: 588px;
 	right: 88px;
 }
-#social-label {
+#liri-label {
 	top: 868px;
 	left: 50px;
 }
@@ -221,7 +221,7 @@ footer {
 		top: 545px;
 		right: 48px;
 	}
-	#social-label {
+	#liri-label {
 		top: 800px;
 		left: 40px;
 	}
@@ -268,7 +268,7 @@ footer {
 		top: 482px;
 		right: 38px;
 	}
-	#social-label {
+	#liri-label {
 		top: 700px;
 		left: 30px;
 	}
@@ -340,7 +340,7 @@ footer {
 		top: 1280px;
 		right: 33px;
 	}
-	#social-label {
+	#liri-label {
 		top: 1600px;
 	}
 }
