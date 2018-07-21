@@ -170,6 +170,10 @@ input {
 	top: 868px;
 	left: 50px;
 }
+#hcli-label {
+	top: 868px;
+	right: 88px;
+}
 
 /* footer */
 footer {
@@ -225,6 +229,10 @@ footer {
 		top: 800px;
 		left: 40px;
 	}
+	#hcli-label {
+		top: 800px;
+		right: 48px;
+	}
 }
 @media screen and (max-width: 768px) {
 	body {
@@ -271,6 +279,10 @@ footer {
 	#liri-label {
 		top: 700px;
 		left: 30px;
+	}
+	#hcli-label {
+		top: 700px;
+		right: 38px;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -342,5 +354,9 @@ footer {
 	}
 	#liri-label {
 		top: 1600px;
+	}
+	#hcli-label {
+		top: 1920px;
+		right: 33px;
 	}
 }
