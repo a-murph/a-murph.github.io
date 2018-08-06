@@ -178,6 +178,10 @@ input {
 	top: 1158px;
 	left: 50px;
 }
+#ff-label {
+	top: 1158px;
+	right: 88px;
+}
 
 /* footer */
 footer {
@@ -241,6 +245,10 @@ footer {
 		top: 1055px;
 		left: 40px;
 	}
+	#ff-label {
+		top: 1055px;
+		right: 48px;
+	}
 }
 @media screen and (max-width: 768px) {
 	body {
@@ -295,6 +303,10 @@ footer {
 	#bamazon-label {
 		top: 918px;
 		left: 30px;
+	}
+	#ff-label {
+		top: 918px;
+		right: 38px;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -373,5 +385,9 @@ footer {
 	}
 	#bamazon-label {
 		top: 2240px;
+	}
+	#ff-label {
+		top: 2560px;
+		right: 33px;
 	}
 }
