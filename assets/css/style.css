@@ -182,6 +182,10 @@ input {
 	top: 1158px;
 	right: 88px;
 }
+#burger-label {
+	top: 1438px;
+	left: 50px;
+}
 
 /* footer */
 footer {
@@ -249,6 +253,10 @@ footer {
 		top: 1055px;
 		right: 48px;
 	}
+	#burger-label {
+		top: 1310px;
+		left: 40px;
+	}
 }
 @media screen and (max-width: 768px) {
 	body {
@@ -307,6 +315,10 @@ footer {
 	#ff-label {
 		top: 918px;
 		right: 38px;
+	}
+	#burger-label {
+		top: 1136px;
+		left: 30px;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -389,5 +401,8 @@ footer {
 	#ff-label {
 		top: 2560px;
 		right: 33px;
+	}
+	#burger-label {
+		top: 2880px;
 	}
 }
