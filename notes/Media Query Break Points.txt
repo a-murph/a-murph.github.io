@@ -1,0 +1,5 @@
+Portfolio Break Points
+
+1290px width: Font becomes smaller
+
+1100px width: Boxes begin changing in size to accomidate width change

@@ -1,87 +1,80 @@
 <!DOCTYPE html>
-<html lang='en-us'>
+<html>
+<!--HEAD-->
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Andrew Murphy - Bio</title>
-	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'/>
-	<link rel='stylesheet' type='text/css' href='assets/css/style.css'/>
+ <meta charset="utf-8">
+ <title>Andrew J. Murphy - Web Developer</title>
+ <link rel="stylesheet" href="css/index.css">
+
+ <!--FONT LINKS-->
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+
 </head>
+
+<!--BODY-->
 <body>
-<nav id='topbar'>
-	<div id='topbar-content'>
-		<div id='topbar-name'>Andrew Murphy</div>
-		<div id='topbar-links'>
-			<a href="index.html">About</a> |
-			<a href="portfolio.html" class='disabled'>Portfolio</a> |
-			<a href="contact.html">Contact</a>
-		</div>
-	</div>
-</nav>
-<div class='container'>
-	<section id='portfolio'>
-		<header>
-			<h1>Portfolio</h1>
-		</header>
-		<hr>
-		<a href="https://a-murph.github.io/Hangman-Game/">
-			<img class="project-picture" src="assets/images/hangman.png" alt="Hangman Game">
-			<div class='project-label' id='hangman-label'>
-				Hangman Game
-			</div>
-		</a>
-		<a href="https://a-murph.github.io/SMT-RPG-Game/">
-			<img class="project-picture" src="assets/images/smtrpg.png" alt="Persona RPG">
-			<div class='project-label' id='persona-label'>
-				Persona RPG
-			</div>
-		</a>
-		<a href="https://a-murph.github.io/TriviaGame/">
-			<img class="project-picture" src="assets/images/pokemon.png" alt="Pokemon Trivia">
-			<div class='project-label' id='pokemon-label'>
-				Pokemon Trivia Game
-			</div>
-		</a>
-		<a href="https://a-murph.github.io/GiphyAPI/">
-			<img class="project-picture" src="assets/images/giphy.png" alt="Giphy API Search">
-			<div class='project-label' id='giphy-label'>
-				Giphy API Search
-			</div>
-		</a>
-		<a href="https://rcb-news-scraper.herokuapp.com/">
-			<img class="project-picture" src="assets/images/polygon.jpg" alt="Mongo/Express Site Scraper">
-			<div class='project-label' id='polygon-label'>
-				Mongo/Express Site Scraper
-			</div>
-		</a>
-		<a href="https://github.com/a-murph/Hangman-CLI">
-			<img class="project-picture" src="assets/images/anime-hangman.png" alt="Node Hangman">
-			<div class='project-label' id='hcli-label'>
-				Node Hangman
-			</div>
-		</a>
-		<a href="https://github.com/a-murph/Bamazon">
-			<img class="project-picture" src="assets/images/bamazon.png" alt="Bamazon Node App">
-			<div class='project-label' id='bamazon-label'>
-				Bamazon Node App
-			</div>
-		</a>
-		<a href="https://github.com/a-murph/Friend-Finder">
-			<img class="project-picture" src="assets/images/friend-finder.png" alt="Friend Finder Express App">
-			<div class='project-label' id='ff-label'>
-				Friend Finder Express App
-			</div>
-		</a>
-		<a href="https://github.com/a-murph/Burger-Logger">
-			<img class="project-picture" src="assets/images/burgers.png" alt="Burger Logger Express/Handlebars App">
-			<div class='project-label' id='burger-label'>
-				Burger Logger Handlebars App
-			</div>
-		</a>
-	</section>
+<div class="wrapper-portfolio">
+    <!--TOP NAVIGATION BAR-->
+    <div class="top-bar">
+        <a class="top-bar-profile-container" href="index.html">
+            <span class="side-name-font no-select">Andrew Murphy</span>
+            <span class="side-name-font no-select">&#8226</span>
+            <span class="side-bar-font no-select">Full Stack Web Developer</span>
+        </a>
+        <nav class="top-navigation">
+            <a class="side-bar-font no-select top-bar-margin" href="portfolio.html">Portfolio</a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="side-bar-font no-select top-bar-margin" href="resume.html">Resume</a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="side-bar-font no-select top-bar-margin" href="about_me.html">About Me</a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="side-bar-font no-select top-bar-margin" href="contact.html">Contact</a>
+        </nav>
+        <div class="top-social-media-bar">
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="https://www.facebook.com/AndrewMurphyWasTaken"><img src="img/social-media-icon-1.png"></a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="https://www.linkedin.com/in/a-murph/"><img src="img/social-media-icon-2.png"></a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="https://github.com/a-murph"><img src="img/social-media-icon-3.png"></a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="andrewmurphywastaken@gmail.com"><img class="social-media-icon" src="img/social-media-icon-4.png"></a>
+        </div>
+    </div>
+
+    <!--PORTFOLIO PAGE CONTENT-->
+    <div class="main-content">
+        <div class="main-content-title-description-container">
+            <span class="main-content-title-font">Projects</span>
+            <p class="side-bar-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod ornare neque. Nunc sollicitudin tristique diam, sed semper eros varius finibus. Praesent auctor mauris ornare metus rhoncus, pulvinar consectetur nisi pellentesque. Aliquam pharetra pulvinar felis, vel tristique risus congue eget.</p>
+        </div>
+        <div class="portfolio-grid"> 
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+            <div class="portfolio-card"></div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+
+    </div>
+
+    <!--BACKGROUND IMAGE-->
+        <img class="background-image" src="img/background-image.jpg">
+        <div class="background-image-opacity"></div>
 </div>
-<footer>
-	Copyright &copy; 2018
-</footer>
 </body>
-</html>
+</html> 
