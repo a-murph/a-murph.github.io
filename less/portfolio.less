@@ -20,6 +20,7 @@
     background-color: @dark-menu-opacity;
 	border: 1px solid @forest-green;
 	margin-bottom: 1.3vw;
+	cursor: pointer;
 }
 
 .portfolio-card-img{
@@ -42,6 +43,7 @@
 	-webkit-transition: all 0.25s ease-in-out 0s;
 	-ms-transition: all 0.25s ease-in-out 0s;
 	transition: all 0.25s ease-in-out 0s;
+	cursor: pointer;
 }
 
 .portfolio-card-hover:hover{
@@ -72,12 +74,28 @@
 }
 
 .modal{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: none;
+}
+
+.modal-content{
 	width: 65%;
 	height: 65%;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
-	position: fixed;
-	z-index: 2;
-	top: 15%;
-	display: none;
+	margin: 8% auto;
+}
+
+.modal-close{
+	font-size: 30px;
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+	padding-right: 10px;
+	padding-top: 10px;
 }
