@@ -612,12 +612,58 @@ table {
   flex-wrap: wrap;
   margin-bottom: 55px;
   margin-top: 55px;
+  justify-content: space-around;
 }
 .portfolio-card {
-  width: 33%;
-  height: 200px;
+  position: relative;
+  width: 34vw;
+  height: 19vw;
   background-color: rgba(0, 0, 0, 0.25);
   border: 1px solid #2d342c;
+  margin-bottom: 1vw;
+}
+.portfolio-card-img {
+  width: 34vw;
+  height: 19vw;
+}
+.portfolio-card-hover {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 34vw;
+  height: 19vw;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  -moz-transition: all 0.25s ease-in-out 0s;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  -ms-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+}
+.portfolio-card-hover:hover {
+  opacity: 1;
+}
+.portfolio-card-hover-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.portfolio-card-hover-text-title {
+  font-size: 1.15em;
+  margin-bottom: 8px;
+}
+.portfolio-card-hover-text-description {
+  font-size: 0.85em;
 }
 .resume-container {
   width: 90%;
