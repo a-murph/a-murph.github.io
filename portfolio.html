@@ -48,15 +48,15 @@
             <!-- <p class="side-bar-font"></p> -->
         </div>
         <div class="portfolio-grid">
-            <a class="portfolio-card-link" data-project="mml" href="#"><div class="portfolio-card">
+            <div class="portfolio-card">
 				<img class="portfolio-card-img" src="img/mml.png" alt="My Movie List">
-				<div class="portfolio-card-hover">
+				<div class="portfolio-card-hover" data-project="mml">
 					<div class="portfolio-card-hover-text">
 						<p class="portfolio-card-hover-text-title">MyMovieList</p>
 						<p class="portfolio-card-hover-text-description">Track, rate, and share the movies you've seen</p>
 					</div>
 				</div>
-			</div></a>
+			</div>
             <div class="portfolio-card"></div>
             <div class="portfolio-card"></div>
             <div class="portfolio-card"></div>
@@ -65,9 +65,11 @@
 		</div>
 
 		<!-- MODALS -->
-		<div class="modal" data-project="mml">
-			<span class="modal-close">&times;</span>
-			<p>Information about MyMediaList</p>
+		<div class="modal" id="mml-modal">
+			<div class="modal-content">
+				<span class="modal-close" data-project="mml">&times;</span>
+				<p>Information about MyMediaList</p>
+			</div>
 		</div>
     </div>
 
@@ -82,4 +84,7 @@
         <div class="background-image-opacity"></div>
 </div>
 </body>
+
+<script src="js/portfolio.js"></script>
+
 </html>
