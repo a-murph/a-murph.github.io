@@ -665,6 +665,16 @@ table {
 .portfolio-card-hover-text-description {
   font-size: 0.85em;
 }
+.modal {
+  width: 65%;
+  height: 65%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  top: 15%;
+  display: none;
+}
 .resume-container {
   width: 90%;
   height: 900px;
