@@ -49,12 +49,13 @@
         </div>
         <div class="portfolio-grid">
             <div class="portfolio-card">
-				<img class="portfolio-card-img" src="img/mml.png" alt="My Movie List">
+				<img class="portfolio-card-img" src="img/mml-thumb.png" alt="My Movie List">
 				<div class="portfolio-card-hover">
 					<div class="portfolio-card-hover-text">
 						<p class="portfolio-card-hover-text-title">MyMovieList</p>
+						<p class="portfolio-card-hover-text-languages">MongoDB, Express, React, Node</p>
 						<p class="portfolio-card-hover-text-description">Track, rate, and share the movies you've seen</p>
-						<button class="project-link" data-link="https://my-media-list.herokuapp.com/">LIVE SITE</button>
+						<button class="project-link link-btn" data-link="https://my-media-list.herokuapp.com/">LIVE SITE</button>
 						<button class="project-info" data-project="mml">MORE INFO</button>
 					</div>
 				</div>
@@ -69,8 +70,16 @@
 		<!-- MODALS -->
 		<div class="modal" id="mml-modal">
 			<div class="modal-content">
-				<span class="modal-close" data-project="mml">&times;</span>
 				<img class="modal-img" src="img/mml.png" alt="My Movie List">
+				<div class="modal-content-text">
+					<p class="modal-title">MyMovieList</p>
+					<p class="modal-languages">MongoDB, Express, React, Node</p>
+					<hr class="modal-line">
+					<p class="modal-description">Modeled after MyAnimeList.com, MyMovieList allows users to search for movies using the OMDB API and add them to their personal lists. Users can list each movie as "Completed", "Plan-to-Watch", or "Dropped" and rate them from 1 - 10, and easily share their list with friends or online.</p>
+					<p class="modal-tech">Technologies used: MongoDB, Mongoose, Express, React, React Router, Node, Axios, OMDB API.</p>
+				</div>
+				<button class="modal-link link-btn" data-link="https://my-media-list.herokuapp.com/">LIVE SITE</button>
+				<span class="modal-close" data-project="mml">&times;</span>
 			</div>
 		</div>
     </div>

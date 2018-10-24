@@ -57,7 +57,13 @@
 
 		.portfolio-card-hover-text-title{
 			font-size: 1.15em;
-			margin-bottom: 8px;
+			margin-bottom: 3px;
+		}
+
+		.portfolio-card-hover-text-languages{
+			font-size: 0.8em;
+			margin-bottom: 10px;
+			color: #444;
 		}
 
 		.portfolio-card-hover-text-description{
@@ -88,23 +94,62 @@
 	display: none;
 
 	.modal-content{
+		position: relative;
 		width: 55%;
 		height: 68%;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: @forest-green-background;
 		color: white;
 		margin: 6% auto;
 
 		.modal-close{
 			font-size: 30px;
-			float: right;
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
 			font-weight: bold;
 			cursor: pointer;
 			padding-right: 10px;
 			padding-top: 10px;
 		}
 
+		.modal-link{
+			border: 1px solid white;
+			background-color: rgba(0, 0, 0, 0);
+			color: white;
+			position: absolute;
+			bottom: 20px;
+			left: 20px;
+			padding: 10px 20px;
+		}
+
 		.modal-img{
 			width: 100%;
+		}
+
+		.modal-content-text{
+			font-family: 'Roboto Condensed', sans-serif;
+			width: 90%;
+			margin: 18px auto;
+
+			.modal-title{
+				font-size: 1.3em;
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+
+			.modal-languages{
+				font-weight: bold;
+				color: #888;
+			}
+
+			.modal-line{
+				margin: 8px 0px;
+			}
+
+			.modal-description{
+				line-height: 1.3em;
+				margin-bottom: 5px;
+			}
 		}
 	}
 }
