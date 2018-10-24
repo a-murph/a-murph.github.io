@@ -667,7 +667,7 @@ table {
   margin-bottom: 50px;
 }
 .project-link {
-  margin-right: 30px;
+  margin-right: 20%;
 }
 .project-info,
 .project-link {
@@ -697,6 +697,9 @@ table {
   cursor: pointer;
   padding-right: 10px;
   padding-top: 10px;
+}
+.modal-demo-gif {
+  width: 65%;
 }
 .resume-container {
   width: 90%;
