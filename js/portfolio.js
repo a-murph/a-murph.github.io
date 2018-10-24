@@ -32,7 +32,7 @@ for (let i = 0; i < modals.length; i++) {
 }
 
 //Live Site buttone
-const linkButtons = document.querySelectorAll(".project-link");
+const linkButtons = document.querySelectorAll(".link-btn");
 
 for (let i = 0; i < linkButtons.length; i++) {
 	linkButtons[i].addEventListener("click", event => {
