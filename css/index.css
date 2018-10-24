@@ -617,13 +617,13 @@ table {
 .portfolio-card {
   position: relative;
   width: 23.4vw;
-  height: 17.55vw;
+  height: 19vw;
   background-color: rgba(0, 0, 0, 0.25);
   border: 1px solid #2d342c;
 }
 .portfolio-card-img {
   width: 23.4vw;
-  height: 17.55vw;
+  height: 19vw;
 }
 .portfolio-card-hover {
   opacity: 0;
@@ -633,7 +633,7 @@ table {
   right: 0;
   bottom: 0;
   width: 23.4vw;
-  height: 17.55vw;
+  height: 19vw;
   background: rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.25s ease-in-out 0s;
   -webkit-transition: all 0.25s ease-in-out 0s;
@@ -682,11 +682,11 @@ table {
   display: none;
 }
 .modal .modal-content {
-  width: 65%;
-  height: 65%;
-  background-color: rgba(0, 0, 0, 0.6);
+  width: 55%;
+  height: 68%;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  margin: 8% auto;
+  margin: 6% auto;
 }
 .modal .modal-content .modal-close {
   font-size: 30px;
