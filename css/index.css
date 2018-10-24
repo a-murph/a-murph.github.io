@@ -697,12 +697,14 @@ table {
 .modal .modal-content .modal-close {
   font-size: 30px;
   position: absolute;
-  bottom: 10px;
+  z-index: 5;
+  top: 10px;
   right: 10px;
   font-weight: bold;
   cursor: pointer;
-  padding-right: 10px;
-  padding-top: 10px;
+  padding: 5px 10px;
+  background-color: rgba(45, 52, 44, 0.8);
+  border-radius: 50%;
 }
 .modal .modal-content .modal-link {
   border: 1px solid white;
@@ -711,6 +713,15 @@ table {
   position: absolute;
   bottom: 20px;
   left: 20px;
+  padding: 10px 20px;
+}
+.modal .modal-content .modal-github {
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
   padding: 10px 20px;
 }
 .modal .modal-content .modal-img {
@@ -733,9 +744,9 @@ table {
 .modal .modal-content .modal-content-text .modal-line {
   margin: 8px 0px;
 }
-.modal .modal-content .modal-content-text .modal-description {
+.modal .modal-content .modal-content-text .modal-description,
+.modal .modal-content .modal-content-text .modal-tech {
   line-height: 1.3em;
-  margin-bottom: 5px;
 }
 .resume-container {
   width: 90%;
