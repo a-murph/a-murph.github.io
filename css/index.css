@@ -612,19 +612,18 @@ table {
   flex-wrap: wrap;
   margin-bottom: 55px;
   margin-top: 55px;
-  justify-content: space-around;
+  justify-content: center;
 }
 .portfolio-card {
   position: relative;
-  width: 34vw;
-  height: 19vw;
+  width: 23.4vw;
+  height: 17.55vw;
   background-color: rgba(0, 0, 0, 0.25);
   border: 1px solid #2d342c;
-  margin-bottom: 1.3vw;
 }
 .portfolio-card-img {
-  width: 34vw;
-  height: 19vw;
+  width: 23.4vw;
+  height: 17.55vw;
 }
 .portfolio-card-hover {
   opacity: 0;
@@ -633,8 +632,8 @@ table {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 34vw;
-  height: 19vw;
+  width: 23.4vw;
+  height: 17.55vw;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   -moz-transition: all 0.25s ease-in-out 0s;
@@ -642,37 +641,38 @@ table {
   -ms-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-in-out 0s;
 }
-.portfolio-card-hover:hover {
-  opacity: 1;
-}
-.portfolio-card-hover-text {
+.portfolio-card-hover .portfolio-card-hover-text {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.3vw;
   display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   -moz-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.portfolio-card-hover-text-title {
+.portfolio-card-hover .portfolio-card-hover-text .portfolio-card-hover-text-title {
   font-size: 1.15em;
   margin-bottom: 8px;
 }
-.portfolio-card-hover-text-description {
+.portfolio-card-hover .portfolio-card-hover-text .portfolio-card-hover-text-description {
   font-size: 0.85em;
-  margin-bottom: 50px;
+  margin-bottom: 4vw;
 }
-.project-link {
-  margin-right: 20%;
-}
-.project-info,
-.project-link {
+.portfolio-card-hover .project-link {
   padding: 5px 10px;
   cursor: pointer;
+}
+.portfolio-card-hover .project-info {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.portfolio-card-hover:hover {
+  opacity: 1;
 }
 .modal {
   width: 100vw;
@@ -680,7 +680,7 @@ table {
   position: fixed;
   top: 0px;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
 .modal .modal-content {
