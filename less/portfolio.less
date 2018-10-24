@@ -104,12 +104,14 @@
 		.modal-close{
 			font-size: 30px;
 			position: absolute;
-			bottom: 10px;
+			z-index: 5;
+			top: 10px;
 			right: 10px;
 			font-weight: bold;
 			cursor: pointer;
-			padding-right: 10px;
-			padding-top: 10px;
+			padding: 5px 10px;
+			background-color: @forest-green-background;
+			border-radius: 50%;
 		}
 
 		.modal-link{
@@ -119,6 +121,16 @@
 			position: absolute;
 			bottom: 20px;
 			left: 20px;
+			padding: 10px 20px;
+		}
+
+		.modal-github{
+			border: 1px solid white;
+			background-color: rgba(0, 0, 0, 0);
+			color: white;
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
 			padding: 10px 20px;
 		}
 
@@ -146,9 +158,8 @@
 				margin: 8px 0px;
 			}
 
-			.modal-description{
+			.modal-description, .modal-tech{
 				line-height: 1.3em;
-				margin-bottom: 5px;
 			}
 		}
 	}
