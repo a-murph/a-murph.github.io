@@ -610,8 +610,8 @@ table {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: -50px;
   margin-bottom: 55px;
-  margin-top: 55px;
   justify-content: center;
 }
 .portfolio-card {
