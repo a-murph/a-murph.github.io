@@ -663,13 +663,13 @@ table {
   font-size: 0.85em;
   margin-bottom: 4vw;
 }
-.portfolio-card-hover .project-link {
-  padding: 5px 10px;
-  cursor: pointer;
-}
+.portfolio-card-hover .project-link,
 .portfolio-card-hover .project-info {
   padding: 5px 10px;
   cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
 }
 .portfolio-card-hover:hover {
   opacity: 1;
