@@ -1,57 +1,72 @@
 <!DOCTYPE html>
-<html lang='en-us'>
+<html>
+<!--HEAD-->
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Andrew Murphy - Bio</title>
-	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'/>
-	<link rel='stylesheet' type='text/css' href='assets/css/style.css'/>
+ <meta charset="utf-8">
+ <title>Andrew J. Murphy - Web Developer</title>
+ <link rel="stylesheet" href="css/index.css">
+
+ <!--FONT LINKS-->
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+
 </head>
+
+<!--BODY-->
 <body>
-<nav id='topbar'>
-	<div id='topbar-content'>
-		<div id='topbar-name'>Andrew Murphy</div>
-		<div id='topbar-links'>
-			<a href="index.html">About</a> |
-			<a href="portfolio.html">Portfolio</a> |
-			<a href="contact.html" class='disabled'>Contact</a>
-		</div>
-	</div>
-</nav>
-<div class='container'>
-	<section id='contact-info'>
-		<header>
-			<h1>Contact Me</h1>
-		</header>
-		<hr>
-		<div id='contact-github'>
-			GitHub: <a href='https://github.com/a-murph'>a-murph</a>
-		</div>
-		<br>
-		<div class='email-label'>Email Me:</div>
-		<div id='contact-email'>
-			<form action="#" method="post">
-				<div class='formrow'>
-					<label for="contact-name">Name:</label><br>
-					<input type="text" name="contact-name" id="contact-name">
-				</div>
-				<div class='formrow'>
-					<label for="contact-address">Email Address:</label><br>
-					<input type="email" name="contact-address" id="contact-address">
-				</div>
-				<div class='formrow'>
-					<label for="contact-message">Message:</label><br>
-					<textarea name="contact-message" id="contact-message" cols="60" rows="10"></textarea>
-				</div>
-				<div class='submitrow'>
-					<a href='#' class='submit-button'>Submit</a>
-				</div>
-			</form>
-		</div>
-	</section>
+<div class="wrapper-portfolio">
+    <!--TOP NAVIGATION BAR-->
+    <div class="top-bar">
+        <a class="top-bar-profile-container" href="index.html">
+            <span class="side-name-font no-select">Andrew Murphy</span>
+            <span class="side-name-font no-select">&#8226</span>
+            <span class="side-bar-font no-select">Full Stack Web Developer</span>
+        </a>
+        <nav class="top-navigation">
+            <a class="side-bar-font no-select top-bar-margin" href="portfolio.html">Portfolio</a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="side-bar-font no-select top-bar-margin" href="resume.html">Resume</a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="side-bar-font no-select top-bar-margin" href="about_me.html">About Me</a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="side-bar-font no-select top-bar-margin" href="contact.html">Contact</a>
+        </nav>
+        <div class="top-social-media-bar">
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="https://www.facebook.com/AndrewMurphyWasTaken"><img src="img/social-media-icon-1.png"></a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="https://www.linkedin.com/in/a-murph/"><img src="img/social-media-icon-2.png"></a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="https://github.com/a-murph"><img src="img/social-media-icon-3.png"></a>
+            <span class="side-name-font no-select top-bar-margin">&#8226</span>
+            <a class="social-media-icon no-select top-bar-margin" target="_blank" href="andrewmurphywastaken@gmail.com"><img class="social-media-icon" src="img/social-media-icon-4.png"></a>
+        </div>
+    </div>
+
+    <!--PORTFOLIO PAGE CONTENT-->
+    <div class="main-content">
+        <div class="main-content-title-description-container">
+            <span class="main-content-title-font">Contact</span>
+        </div>
+        <div class="contact-container">
+           <p class="body-font">Looking to connect? Contact me through my email, or any of my social media pages!</p>
+           <ul>
+               <!--ADD A CLICK EVENT TO COPY EMAIL ADDRESS TO CLIP BOARD ON CLICK-->
+            <li><a class="social-media-icon no-select top-bar-margin" target="_blank" href="mailto:andrewmurphywastaken@gmail.com"><img src="img/social-media-icon-4.png"></a><span class="body-font">Email: andrewmurphywastaken@gmail.com</span></li> 
+            <li><a class="social-media-icon no-select top-bar-margin body-font" target="_blank" href="https://www.linkedin.com/in/a-murph/"><img src="img/social-media-icon-2.png"> LinkedIn: https://www.linkedin.com/in/a-murph/</a></li>
+            <li><a class="social-media-icon no-select top-bar-margin body-font" target="_blank" href="https://github.com/a-murph"><img src="img/social-media-icon-3.png"> GitHub: https://github.com/a-murph</a></li>
+            <li><a class="social-media-icon no-select top-bar-margin body-font" target="_blank" href="https://www.facebook.com/AndrewMurphyWasTaken"><img src="img/social-media-icon-1.png"> Facebook: https://www.facebook.com/AndrewMurphyWasTaken</a></li>
+           </ul>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+
+    </div>
+
+    <!--BACKGROUND IMAGE-->
+        <img class="background-image" src="img/background-image.jpg">
+        <div class="background-image-opacity"></div>
 </div>
-<footer>
-	Copyright &copy; 2018
-</footer>
 </body>
-</html>
+</html> 
