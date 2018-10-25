@@ -60,9 +60,42 @@
 					</div>
 				</div>
 			</div>
-            <div class="portfolio-card"></div>
-            <div class="portfolio-card"></div>
-            <div class="portfolio-card"></div>
+            <div class="portfolio-card">
+				<img class="portfolio-card-img" src="img/polygon-thumb.png" alt="Polygon Scraper">
+				<div class="portfolio-card-hover">
+					<div class="portfolio-card-hover-text">
+						<p class="portfolio-card-hover-text-title">Polygon Scraper</p>
+						<p class="portfolio-card-hover-text-languages">MongoDB, Express, Node</p>
+						<p class="portfolio-card-hover-text-description">View and comment on the most recent articles from Polygon</p>
+						<button class="project-link link-btn" data-link="https://mongo-polygon-scraper.herokuapp.com/">LIVE SITE</button>
+						<button class="project-info" data-project="polygon">MORE INFO</button>
+					</div>
+				</div>
+			</div>
+            <div class="portfolio-card">
+				<img class="portfolio-card-img" src="img/mhw-thumb.png" alt="React Memory Game">
+				<div class="portfolio-card-hover">
+					<div class="portfolio-card-hover-text">
+						<p class="portfolio-card-hover-text-title">React Memory Game</p>
+						<p class="portfolio-card-hover-text-languages">React</p>
+						<p class="portfolio-card-hover-text-description">React-powered image memory game</p>
+						<button class="project-link link-btn" data-link="https://a-murph.github.io/Memory-Game/">LIVE SITE</button>
+						<button class="project-info" data-project="mhw">MORE INFO</button>
+					</div>
+				</div>
+			</div>
+            <div class="portfolio-card">
+				<img class="portfolio-card-img" src="img/smt-thumb.png" alt="jQuery RPG">
+				<div class="portfolio-card-hover">
+					<div class="portfolio-card-hover-text">
+						<p class="portfolio-card-hover-text-title">jQuery RPG</p>
+						<p class="portfolio-card-hover-text-languages">jQuery</p>
+						<p class="portfolio-card-hover-text-description">Framework-less JavaScript game</p>
+						<button class="project-link link-btn" data-link="https://a-murph.github.io/Memory-Game/">LIVE SITE</button>
+						<button class="project-info" data-project="smt">MORE INFO</button>
+					</div>
+				</div>
+			</div>
             <div class="portfolio-card"></div>
             <div class="portfolio-card"></div>
 		</div>
@@ -75,12 +108,65 @@
 					<p class="modal-title">MyMovieList</p>
 					<p class="modal-languages">MongoDB, Express, React, Node</p>
 					<hr class="modal-line">
-					<p class="modal-description">Modeled after MyAnimeList.com, MyMovieList allows users to search for movies using the OMDB API and add them to their personal lists. Users can list each movie as "Completed", "Plan-to-Watch", or "Dropped" and rate them from 1 - 10, and easily share their list with friends or online.</p><br/>
+					<p class="modal-description">
+						Modeled after MyAnimeList.com, MyMovieList is a full-stack MERN app that allows users to search for movies using the OMDB API and add them to their personal lists. Users can list each movie as "Completed", "Plan-to-Watch", or "Dropped" and rate them from 1 - 10, and easily share their list with friends or online.
+					</p><br/>
 					<p class="modal-tech">Technologies used: MongoDB, Mongoose, Express, React, React Router, Node, Axios, OMDB API, Bootstrap, Materialize.</p>
 				</div>
 				<button class="modal-link link-btn" data-link="https://my-media-list.herokuapp.com/">LIVE SITE</button>
 				<button class="modal-github link-btn" data-link="https://github.com/a-murph/mymedialist">GITHUB</button>
 				<span class="modal-close" data-project="mml">&times;</span>
+			</div>
+		</div>
+		<div class="modal" id="polygon-modal">
+			<div class="modal-content">
+				<img class="modal-img" src="img/polygon.png" alt="Polygon Scraper">
+				<div class="modal-content-text">
+					<p class="modal-title">Polygon Scraper</p>
+					<p class="modal-languages">MongoDB, Express, Node</p>
+					<hr class="modal-line">
+					<p class="modal-description">
+						This site scrapes the front page of Polygon.com  and displays the headlines, thumbnails, and bylines of each new article. Users can then comment on any given article, or go to the archives to view all scraped articles.
+					</p><br/>
+					<p class="modal-tech">Technologies used: MongoDB, Mongoose, Express, Node, Cheerio, Handlebars</p>
+				</div>
+				<button class="modal-link link-btn" data-link="https://mongo-polygon-scraper.herokuapp.com/">LIVE SITE</button>
+				<button class="modal-github link-btn" data-link="https://github.com/a-murph/News-Scraper">GITHUB</button>
+				<span class="modal-close" data-project="polygon">&times;</span>
+			</div>
+		</div>
+		<div class="modal" id="mhw-modal">
+			<div class="modal-content">
+				<img class="modal-img" src="img/mhw.png" alt="React Memory Game">
+				<div class="modal-content-text">
+					<p class="modal-title">React Memory Game</p>
+					<p class="modal-languages">React</p>
+					<hr class="modal-line">
+					<p class="modal-description">
+						A memory game using creatures from the Capcom game Monster Hunter World. A user gains one point for clicking on an image, but loses the game if they click on the same image twice. The images reshuffle on each click.
+					</p><br/>
+					<p class="modal-tech">Technologies used: React, CSS</p>
+				</div>
+				<button class="modal-link link-btn" data-link="https://a-murph.github.io/Memory-Game/">LIVE SITE</button>
+				<button class="modal-github link-btn" data-link="https://github.com/a-murph/Memory-Game">GITHUB</button>
+				<span class="modal-close" data-project="mhw">&times;</span>
+			</div>
+		</div>
+		<div class="modal" id="smt-modal">
+			<div class="modal-content">
+				<img class="modal-img" src="img/smt.png" alt="jQuery RPG">
+				<div class="modal-content-text">
+					<p class="modal-title">jQuery RPG</p>
+					<p class="modal-languages">jQuery</p>
+					<hr class="modal-line">
+					<p class="modal-description">
+						An RPG using characters from the Shin Megami Tensei: Persona series of video games. The player selects a character to play as and then must defeat every other character without being defeated. The player's stats increase during each battle.
+					</p><br/>
+					<p class="modal-tech">Technologies used: JavaScript, jQuery, CSS, HTML</p>
+				</div>
+				<button class="modal-link link-btn" data-link="https://a-murph.github.io/Memory-Game/">LIVE SITE</button>
+				<button class="modal-github link-btn" data-link="https://github.com/a-murph/Memory-Game">GITHUB</button>
+				<span class="modal-close" data-project="smt">&times;</span>
 			</div>
 		</div>
     </div>
