@@ -689,10 +689,10 @@ table {
 .modal .modal-content {
   position: relative;
   width: 55%;
-  height: 68%;
-  background-color: rgba(45, 52, 44, 0.8);
+  height: 80%;
+  background-color: rgba(45, 52, 44);
   color: white;
-  margin: 6% auto;
+  margin: 5% auto;
 }
 .modal .modal-content .modal-close {
   font-size: 30px;
@@ -714,6 +714,7 @@ table {
   bottom: 20px;
   left: 20px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 .modal .modal-content .modal-github {
   border: 1px solid white;
@@ -723,6 +724,7 @@ table {
   bottom: 20px;
   right: 20px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 .modal .modal-content .modal-img {
   width: 100%;
