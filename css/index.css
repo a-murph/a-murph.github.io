@@ -283,6 +283,17 @@ header.masthead .intro-text .intro-heading {
     margin: 0 0 30px;
   }
 }
+.portfolio-modal[aria-hidden=true] {
+  display: block !important;
+  height: 0px;
+  overflow: hidden;
+}
+
+.portfolio-modal[aria-hidden=false] {
+  display: block !important;
+  height: auto;
+}
+
 .portfolio-modal {
   padding-right: 0px !important;
 }
@@ -292,10 +303,34 @@ header.masthead .intro-text .intro-heading {
 }
 .portfolio-modal .modal-content {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
   border: 1px solid black;
   padding: 100px 0;
   text-align: center;
+}
+.portfolio-modal .modal-content .container {
+  order: 0;
+  width: 50%;
+  text-align: left;
+}
+.portfolio-modal .modal-content .carousel-wrapper {
+  display: flex;
+  align-items: center;
+  order: 1;
+  width: 50%;
+  padding-right: 15px;
+}
+.portfolio-modal .modal-content .carousel-wrapper .carousel {
+  width: 100%;
+  margin-top: 25px;
+}
+.portfolio-modal .modal-content .carousel-wrapper .carousel img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.portfolio-modal .modal-content .carousel-wrapper .carousel .slick-dots {
+  position: static;
 }
 .portfolio-modal .modal-content h2 {
   font-size: 3em;
@@ -317,8 +352,15 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content button {
-  cursor: pointer;
+.portfolio-modal .modal-content .tech-button-div {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+.portfolio-modal .modal-content .tech-button-div .tech-button {
+  cursor: default;
+}
+.portfolio-modal .modal-content ul {
+  margin-bottom: 35px;
 }
 .portfolio-modal .modal-content .modal-text-image-container {
   border: 1px soldi;
