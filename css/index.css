@@ -1,7 +1,3 @@
-.gray-bg {
-  background-color: #e9ecef;
-}
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -74,7 +70,7 @@ section h3.section-subheading {
   color: white;
 }
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(163, 169, 83, 0.5) !important;
 }
 
 ::-moz-selection {
@@ -209,12 +205,12 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-#portfolio .text-muted {
-  color: white !important;
-}
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+}
+#portfolio .portfolio-item .text-muted {
+  color: white !important;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -420,7 +416,7 @@ header.masthead .intro-text .intro-heading {
   justify-content: center;
 }
 .additional-skills-container .additional-skills {
-  width: 45%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -464,8 +460,8 @@ header.masthead .intro-text .intro-heading {
   }
 
   .additional-skills-container .additional-skills {
-    flex-wrap: wrap;
-    width: 45%;
+    flex-wrap: nowrap;
+    width: 25%;
   }
   .additional-skills-container .additional-skills .skills-icon {
     width: 50px;
@@ -474,12 +470,8 @@ header.masthead .intro-text .intro-heading {
 }
 @media (max-width: 700px) {
   .additional-skills-container .additional-skills {
-    width: 75%;
-  }
-}
-@media (max-width: 440px) {
-  .additional-skills-container .additional-skills {
     justify-content: center;
+    flex-wrap: nowrap;
   }
 }
 @media (max-width: 350px) {
@@ -511,6 +503,10 @@ section#contact {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+section#contact .img {
+  width: 100%;
+  height: 300px;
 }
 section#contact .text-muted {
   color: white !important;
