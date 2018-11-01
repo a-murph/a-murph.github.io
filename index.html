@@ -514,36 +514,28 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">MyMovieList</h2>
-							<p class="item-intro text-muted">Experience a lifetime adventure. Save up on your holiday</p>
+							<p class="item-intro text-muted">Track, rate, and share the movies you've seen.</p>
 							<div class="tech-button-div">
 								<button class="tech-button btn btn-primary" type="button">MongoDB</button>
 								<button class="tech-button btn btn-primary" type="button">Express</button>
 								<button class="tech-button btn btn-primary" type="button">React</button>
 								<button class="tech-button btn btn-primary" type="button">Node</button>
 							</div>
-							<p>Tripsomnia is a web platform that allows to book and sell local tours and tourist attractions all over the
-								world.</p>
-							<p>Throughout two years of cooperation, I had built the entire platform from scratch and later maintained it
-								and guaranteed its’ stability and success. I also served as a strong advisor of founders team for the
-								selection and invention of the app features, sometimes also even helping to raise an investment from outside
-								VCs.</p>
+							<p>MyMovieList is a single-page web app that allows users to list and rate every movie they've seen, and allows them to share with their friends or online.</p>
+							<p>Built from scratch by myself and four others over 3 weeks, the site facilitates searching for movies to add to your list, rating them from 1-10, and marking them as "Completed", "Dropped", or "Plan to Watch". Users can also go to a specific movie's page for more detailed information and trailers, and look up and view other user's lists. I built most of the functionality of the List and Search pages, including most of the React code on those pages as well as the API server and backend routing for most of the application.</p>
 							<p>In summary, what we built is:</p>
 							<ul>
-								<li>international marketplace (built in Ruby on Rails) allowing end-customers to browse tourist tours and
-									attractions, see their schedule and prices, and book them online;</li>
-								<li>huge single page application for Partners (built in React and Redux) to manage their offers, schedules,
-									prices, orders, customers and agents’ network;</li>
-								<li>custom widgets written in JS, which Partners can put in order to advertise and sell their tours directly
-									on their website;</li>
-								<li>an ability for marketplace to list and sell the products under a Partner’s or an Agent’s own branding and
-									logo (and his own commision);</li>
-								<li>notifications and orders management centre for customers and tour organisers/pilots.</li>
+								<li>A React-based frontend with a home view, a view that displays a user's movie list, a search view that queries the OMDB API for movies to add to a user's list, and a view with detailed information on a specific movie</li>
+								<li>A MongoDB database that holds each user's profile information as well as their personal movie list</li>
+								<li>An Node/Express backend to run the API server, which handles all queries between React and Mongo such as CRUD functions interacting with a user's movie list</li>
+								<li>A login authentication system using the Passport middleware for Express</li>
+								<li>Bootstrap- and Materialize-powered CSS styling</li>
 							</ul>
 
-							<button class="btn btn-primary" data-dismiss="modal" type="button">
-								<i class="fas fa-times"></i>
-								Close Project</button>
-							<button onclick="window.open('http://my-media-list.herokuapp.com', '_blank');" class="btn btn-primary" data-dismiss="modal" type="button">
+							<button  onclick="window.open('https://github.com/a-murph/mymedialist', '_blank');" class="btn btn-primary" type="button">
+								<i class="fab fa-github"></i>
+								Github</button>
+							<button onclick="window.open('http://my-media-list.herokuapp.com', '_blank');" class="btn btn-primary" type="button">
 								<i class="fas fa-external-link-alt"></i>
 								Live Website</button>
 						</div>
@@ -576,36 +568,26 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">Polygon Scraper</h2>
-							<p class="item-intro text-muted">Experience a lifetime adventure. Save up on your holiday</p>
+							<p class="item-intro text-muted">View and comment on the latest articles from Polygon</p>
 							<div class="tech-button-div">
 								<button class="tech-button btn btn-primary" type="button">MongoDB</button>
 								<button class="tech-button btn btn-primary" type="button">Express</button>
 								<button class="tech-button btn btn-primary" type="button">Handlebars</button>
 								<button class="tech-button btn btn-primary" type="button">Node</button>
 							</div>
-							<p>Tripsomnia is a web platform that allows to book and sell local tours and tourist attractions all over the
-								world.</p>
-							<p>Throughout two years of cooperation, I had built the entire platform from scratch and later maintained it
-								and guaranteed its’ stability and success. I also served as a strong advisor of founders team for the
-								selection and invention of the app features, sometimes also even helping to raise an investment from outside
-								VCs.</p>
-							<p>In summary, what we built is:</p>
+							<p>This site scrapes Polygon.com and provides a list of all articles on the front page.</p>
+							<p>All articles from the front page of Polygon are shown. Users can click the "get new articles" button to update the list of articles, and they can go to an article's specific page to leave comments on it.</p>
+							<p>In summary, what I built is:</p>
 							<ul>
-								<li>international marketplace (built in Ruby on Rails) allowing end-customers to browse tourist tours and
-									attractions, see their schedule and prices, and book them online;</li>
-								<li>huge single page application for Partners (built in React and Redux) to manage their offers, schedules,
-									prices, orders, customers and agents’ network;</li>
-								<li>custom widgets written in JS, which Partners can put in order to advertise and sell their tours directly
-									on their website;</li>
-								<li>an ability for marketplace to list and sell the products under a Partner’s or an Agent’s own branding and
-									logo (and his own commision);</li>
-								<li>notifications and orders management centre for customers and tour organisers/pilots.</li>
+								<li>A MongoDB database to hold all article information and any comments on each article</li>
+								<li>An Express server that uses the Cheerio NPM module to scrape all articles from the front page of Polygon and pass their data to Mongo and Handlebars</li>
+								<li>A Handlebars-powered frontend that takes the article information it's passed and displays it as HTML</li>
 							</ul>
 
-							<button class="btn btn-primary" data-dismiss="modal" type="button">
-								<i class="fas fa-times"></i>
-								Close Project</button>
-							<button onclick="window.open('http://mongo-polygon-scraper.herokuapp.com', '_blank');" class="btn btn-primary" data-dismiss="modal" type="button">
+							<button  onclick="window.open('https://github.com/a-murph/News-Scraper', '_blank');" class="btn btn-primary" type="button">
+								<i class="fab fa-github"></i>
+								Github</button>
+							<button onclick="window.open('http://mongo-polygon-scraper.herokuapp.com', '_blank');" class="btn btn-primary" type="button">
 								<i class="fas fa-external-link-alt"></i>
 								Live Website</button>
 						</div>
@@ -638,33 +620,22 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">React Memory Game</h2>
-							<p class="item-intro text-muted">Experience a lifetime adventure. Save up on your holiday</p>
+							<p class="item-intro text-muted">Don't click on the same image twice</p>
 							<div class="tech-button-div">
 								<button class="tech-button btn btn-primary" type="button">React</button>
 							</div>
-							<p>Tripsomnia is a web platform that allows to book and sell local tours and tourist attractions all over the
-								world.</p>
-							<p>Throughout two years of cooperation, I had built the entire platform from scratch and later maintained it
-								and guaranteed its’ stability and success. I also served as a strong advisor of founders team for the
-								selection and invention of the app features, sometimes also even helping to raise an investment from outside
-								VCs.</p>
-							<p>In summary, what we built is:</p>
+							<p>This is a memory game built entirely with React, using images from the Capcom game "Monster Hunter World".</p>
+							<p>The player gets one point for clicking on an image, but if they click on the same image twice they lose and the game resets. The order of the images reshuffles after each click.</p>
+							<p>In summary, what I built is:</p>
 							<ul>
-								<li>international marketplace (built in Ruby on Rails) allowing end-customers to browse tourist tours and
-									attractions, see their schedule and prices, and book them online;</li>
-								<li>huge single page application for Partners (built in React and Redux) to manage their offers, schedules,
-									prices, orders, customers and agents’ network;</li>
-								<li>custom widgets written in JS, which Partners can put in order to advertise and sell their tours directly
-									on their website;</li>
-								<li>an ability for marketplace to list and sell the products under a Partner’s or an Agent’s own branding and
-									logo (and his own commision);</li>
-								<li>notifications and orders management centre for customers and tour organisers/pilots.</li>
+								<li>React components for the clickable images and the game header</li>
+								<li>A main class component that holds an array of every image that shuffles on every click, an array of all the images that the player has clicked so far, and the player's current score and highest score</li>
 							</ul>
 
-							<button class="btn btn-primary" data-dismiss="modal" type="button">
-								<i class="fas fa-times"></i>
-								Close Project</button>
-							<button onclick="window.open('http://a-murph.github.io/Memory-Game', '_blank');" class="btn btn-primary" data-dismiss="modal" type="button">
+							<button  onclick="window.open('https://github.com/a-murph/Memory-Game', '_blank');" class="btn btn-primary" type="button">
+								<i class="fab fa-github"></i>
+								Github</button>
+							<button onclick="window.open('http://a-murph.github.io/Memory-Game', '_blank');" class="btn btn-primary" type="button">
 								<i class="fas fa-external-link-alt"></i>
 								Live Website</button>
 						</div>
@@ -700,33 +671,23 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">jQuery RPG</h2>
-							<p class="item-intro text-muted">Experience a lifetime adventure. Save up on your holiday</p>
+							<p class="item-intro text-muted">Defeat all of your enemies before they defeat you</p>
 							<div class="tech-button-div">
 								<button class="tech-button btn btn-primary" type="button">jQuery</button>
 							</div>
-							<p>Tripsomnia is a web platform that allows to book and sell local tours and tourist attractions all over the
-								world.</p>
-							<p>Throughout two years of cooperation, I had built the entire platform from scratch and later maintained it
-								and guaranteed its’ stability and success. I also served as a strong advisor of founders team for the
-								selection and invention of the app features, sometimes also even helping to raise an investment from outside
-								VCs.</p>
-							<p>In summary, what we built is:</p>
+							<p>This is an RPG built using only jQuery and plain JavaScript, based on the Atlus video game series "Shin Megami Tensei: Persona".</p>
+							<p>The player chooses one of six characters, each with different stats, and then must defeat all five other characters without losing all of their health. The player character's attack stat increases on each attack, and they choose the order in which to challenge the other characters. The player must choose the order of opponents carefully in order to survive long enough to defeat every opponent. The game's battle music changes depending on the character the player chooses.</p>
+							<p>In summary, what I built is:</p>
 							<ul>
-								<li>international marketplace (built in Ruby on Rails) allowing end-customers to browse tourist tours and
-									attractions, see their schedule and prices, and book them online;</li>
-								<li>huge single page application for Partners (built in React and Redux) to manage their offers, schedules,
-									prices, orders, customers and agents’ network;</li>
-								<li>custom widgets written in JS, which Partners can put in order to advertise and sell their tours directly
-									on their website;</li>
-								<li>an ability for marketplace to list and sell the products under a Partner’s or an Agent’s own branding and
-									logo (and his own commision);</li>
-								<li>notifications and orders management centre for customers and tour organisers/pilots.</li>
+								<li>Dynamically-generated HTML, using jQuery to build each character's info card and update it when necessary</li>
+								<li>Main game object that handles progression of game, including logic for dealing damage, increasing stats, and defeating enemies</li>
+								<li>jQuery event handlers for selecting characters and which trigger relevant game-logic functions in the main game object</li>
 							</ul>
 
-							<button class="btn btn-primary" data-dismiss="modal" type="button">
-								<i class="fas fa-times"></i>
-								Close Project</button>
-							<button onclick="window.open('http://a-murph.github.io/SMT-RPG-Game', '_blank');" class="btn btn-primary" data-dismiss="modal" type="button">
+							<button  onclick="window.open('https://github.com/a-murph/SMT-RPG-GAME', '_blank');" class="btn btn-primary" type="button">
+								<i class="fab fa-github"></i>
+								Github</button>
+							<button onclick="window.open('http://a-murph.github.io/SMT-RPG-Game', '_blank');" class="btn btn-primary" type="button">
 								<i class="fas fa-external-link-alt"></i>
 								Live Website</button>
 						</div>
